@@ -30,6 +30,12 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Шапка */
+
 .logo1{
     font-family: Raleway;
     font-weight: 700;
@@ -37,7 +43,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
 }
 
 .logo2{
@@ -47,12 +52,12 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    text-decoration: none;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
 .site-nav {
@@ -70,7 +75,6 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
-    text-decoration: none;
 }
 
 .site-info {
@@ -110,20 +114,22 @@ ul {
 /* Hero section */
 
 .hero-section {
-    text-align: center;;
+    height: 600px;
+    text-align: center;
+    background-color: #2F303A;
 }
 
 .hero-title {
     width: 696px;
-    margin-top: 200px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 30px auto;
+    padding-top: 200px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.34;
     letter-spacing: 0.06em;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .hero-title.centered {
@@ -136,7 +142,6 @@ ul {
     height: 50px;
     color: white;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -316,6 +321,22 @@ button {
 
 /* Подвал */
 
+.logo2footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.page-footer {
+    height: 252px;
+padding-top: 60px;
+
+    background-color: #2F303A;
+}
+
 .footer-address:hover,
 .footer-mail:hover,
 .footer-tel:hover,
@@ -334,6 +355,7 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .footer-mail {
@@ -341,6 +363,7 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
@@ -348,4 +371,5 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
