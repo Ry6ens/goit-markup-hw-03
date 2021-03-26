@@ -114,7 +114,9 @@ a {
 /* Hero section */
 
 .hero-section {
+    max-width: 1600px;
     height: 600px;
+
     text-align: center;
     background-color: #2F303A;
 }
@@ -238,6 +240,10 @@ button {
 }
 
 /* Наша команда */
+
+.ourteam {
+    background-color: #F5F4FA;
+}
 
 .team-img {
     margin-right: 30px;
