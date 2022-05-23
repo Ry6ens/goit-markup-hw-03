@@ -70,10 +70,16 @@ p {
     border-bottom: 1px solid #ECECEC;
 }
 
+.main-header {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
-    height: 80px;
 }
 
 .logo {
@@ -130,7 +136,7 @@ p {
 /* Hero */
 
 .hero {
-    height: 600px;
+    padding-bottom: 200px;
     text-align: center;
     background: #2F303A;
 }
@@ -161,6 +167,10 @@ p {
 }
 
 /* Особенности */
+
+.features-main {
+    padding-bottom: 0px;
+}
 
 .features-list {
     display: flex;
@@ -215,7 +225,6 @@ p {
 }
 
 .team-card {
-    margin-right: 30px;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
     
@@ -226,8 +235,13 @@ p {
     margin-right: 30px;
 }
 
-.team-name {
+.team-layout {
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team-name {
+    /* margin-top: 30px; */
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -239,7 +253,7 @@ p {
 
 .team-description {
     margin-top: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
     font-size: 16px;
     line-height: 1.19;
@@ -258,8 +272,7 @@ p {
 }
 
 .filter-button {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 6px 22px 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -299,7 +312,6 @@ p {
     box-sizing: border-box;
 
     border: 1px solid #EEEEEE;
-    box-sizing: border-box;
 }
 
 .portfolio-card:nth-child(3n) {
@@ -332,8 +344,8 @@ p {
 /* Footer */
 
 .footer {
-    height: 252px;
     padding-top: 60px;
+    padding-bottom: 60px;
 
     background-color: #2F303A;
 }
