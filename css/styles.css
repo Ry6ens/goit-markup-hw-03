@@ -27,6 +27,10 @@ p {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 /* Утилиты */
 
 .section {
@@ -73,8 +77,6 @@ p {
 .main-header {
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .main-nav {
@@ -103,6 +105,12 @@ p {
 
 .nav-info {
     margin-left: auto;
+}
+
+.nav-item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-item:not(:last-child) {
@@ -136,6 +144,7 @@ p {
 /* Hero */
 
 .hero {
+    padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
     background: #2F303A;
@@ -144,7 +153,6 @@ p {
 .hero-title {
     width: 696px;
     margin: 0px auto 30px auto;
-    padding-top: 200px;
 
     font-weight: 900;
     font-size: 44px;
@@ -186,6 +194,7 @@ p {
 }
 
 .features-title {
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -236,12 +245,11 @@ p {
 }
 
 .team-layout {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name {
-    /* margin-top: 30px; */
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -252,9 +260,6 @@ p {
 }
 
 .team-description {
-    margin-top: 0;
-    /* margin-bottom: 30px; */
-
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -281,6 +286,8 @@ p {
     border-radius: 4px;
 
     cursor: pointer;
+
+    background-color: #F5F4FA;
 }
 
 .filter-item:not(:last-child) {
@@ -309,9 +316,9 @@ p {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    box-sizing: border-box;
+    /* box-sizing: border-box;
 
-    border: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE; */
 }
 
 .portfolio-card:nth-child(3n) {
@@ -323,9 +330,12 @@ p {
 }
 
 .portfolio-frame {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
@@ -351,6 +361,7 @@ p {
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 20px;
 }
 
